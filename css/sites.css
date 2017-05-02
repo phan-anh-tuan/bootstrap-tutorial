@@ -1,0 +1,19 @@
+section {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+section:first-child {
+    margin-top: 0;
+}
+section#header div.container{
+    background: url(../images/hero-unit.jpg);
+}
+section#processes div.container {
+    background: #eeeeee;
+    padding-bottom: 15px;
+}
+#portfolio img {
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+    padding: 5px;
+}
