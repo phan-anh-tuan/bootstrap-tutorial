@@ -5,10 +5,11 @@ section {
 section:first-child {
     margin-top: 0;
 }
-section#header div.container{
-    background: url(../images/hero-unit.jpg);
+section#header {
+    background: url(../images/hero-unit.jpg) no-repeat;
+    background-size: 100%;
 }
-section#processes div.container {
+section#processes {
     background: #eeeeee;
     padding-bottom: 15px;
 }
