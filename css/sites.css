@@ -31,7 +31,7 @@ section header
 */
 section#header {
     background: url(../images/hero-unit.jpg) no-repeat;
-    background-size: 100%;
+    /*background-size: 100%;*/
     color: white;
 }
 
@@ -188,13 +188,13 @@ section#news article:last-child {
     border-bottom: none;
 }
 
-section#news a#article-title {
+section#news a.article-title {
     color: #000;
     font-weight: bold;
     border-bottom: 1px solid transparent;
 }
 
-section#news a#article-title:hover, section#news a#article-title:active {
+section#news a.article-title:hover, section#news a.article-title:active {
     text-decoration: none;
     border-bottom: 1px solid #eeeeee;
 }
