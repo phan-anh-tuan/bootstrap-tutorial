@@ -227,17 +227,33 @@ section#news article.tweet p {
 /*
 section footer
 */
+section#footer {
+    margin-top: 50px;
+}
 section#footer #footer-navigation {
     list-style: none;
     padding-left: 0;
+    margin-bottom: 50px;
 }
 
 section#footer ul#footer-navigation li{
     display: inline;
-    padding: 0 15px 0 15px;
+    padding: 0 30px 0 30px;
 }
 
-section#footer button span {
+section#footer ul#footer-navigation li > a, section#footer strong {
+    font-size: 1.2rem;
+    font-family: Helvetica,Arial,Sans-serif;
+    color: rgb(102,102,102);
+}
+section#footer strong > a {
+    color: red;
+}
+section#footer a.btn {
+    margin: 0 5px 30px 5px;
+}
+
+section#footer a.btn span {
     min-width: 16px;
     max-height: 16px;
     display: inline-block;
@@ -245,6 +261,6 @@ section#footer button span {
     margin-right: 7.5px;
 }
 
-section#footer button#facebook span {
+section#footer a.btn#facebook span {
     background-position: -16px 0px;
 }
