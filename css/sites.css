@@ -1,3 +1,17 @@
+html, body {
+    font-size: 10px;
+    font-family: 'museo700',sans-serif;
+}
+
+h1 {
+    font-size: 4.8rem;
+}
+h4 {
+    font-size: 1.75rem;
+}
+#container-wrapper {
+    padding: 0;
+}
 section {
     margin-top: 15px;
     margin-bottom: 15px;
@@ -11,6 +25,67 @@ section header
 section#header {
     background: url(../images/hero-unit.jpg) no-repeat;
     background-size: 100%;
+    color: white;
+}
+
+section#header .navbar-default .navbar-nav>li>a {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: white;
+}
+
+section#header .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: rgba(255,255,255,0.7);
+}
+
+section#header .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background-color: rgba(0,0,0,0.7);    
+}
+
+section#header .navbar-default {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    padding: 30px 0 15px 0;
+}
+
+section#header .navbar-default .navbar-brand {
+    min-width: 12.7rem;
+    min-height: 4.8rem;
+    background: url(../images/brand.png) no-repeat;
+}
+
+section#header h1 {
+    margin: 5rem 0 2rem 0;
+}
+
+section#header h4 {
+    color: #cccccc;
+    margin-bottom: 45px;
+}
+
+section#header a {
+    font-size: 1.6rem;
+    /*font-weight: bold;    */
+    color: white;
+    text-decoration: none;
+}
+
+section#header div > a {
+    margin-left: 15px;
+    vertical-align: middle;
+    border-bottom: 1px solid #ddd;
+}
+
+section#header .btn-primary {
+    background: red;
+    border-color: red;
+}
+
+section#header img {
+    margin-top: 30px;
 }
 /*
 section processes
