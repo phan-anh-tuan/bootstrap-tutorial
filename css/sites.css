@@ -12,10 +12,17 @@ h4 {
 #container-wrapper {
     padding: 0;
 }
+/*
 section {
     margin-top: 15px;
     margin-bottom: 15px;
 }
+*/
+section h3 {
+    font-family: 'museo700',sans-serif;
+    font-size: 1.75rem;
+}
+
 section:first-child {
     margin-top: 0;
 }
@@ -93,17 +100,67 @@ section processes
 section#processes {
     background: #eeeeee;
     padding-bottom: 15px;
+    font-size: 1.4rem;
+    font-family: Helvetica,Arial,Sans-serif;
 }
+
+section#processes p {
+    color:#7d7d7d;
+}
+
+section#processes div#processes-wrapper{
+    position:relative;
+}
+section#processes div#processes-divider {
+    border-bottom: 5px solid #dadada;
+    position: relative;
+    top:100px;
+}
+
+section#processes span.process-sprite {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: url(../images/process-sprite.png) no-repeat;
+    margin: 50px auto 15px;
+}
+section#processes span.design {
+    background-position: -100px 0;
+}
+section#processes span.develop {
+    background-position: -200px 0;
+}
+section#processes span.launch {
+    background-position: -300px 0;
+}
+section#processes .btn-default {
+    background: #9a9c9f;
+    border-color: #9a9c9f;
+    font-size: 1.2rem;
+    color: white;
+    margin: 15px 0 15px 0;
+}
+
 /*
 section portfolio
 */
-
+section#portfolio p {
+    font-size: 1.4rem;
+    font-family: Helvetica,Arial,Sans-serif;
+    color: rgb(153,153,153);
+}
 section#portfolio img {
     border: 1px solid #eeeeee;
     border-radius: 5px;
     padding: 5px;
 }
-
+section#portfolio div#portfolio-wrapper {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+section#portfolio h6 {
+    font-size: 1.4rem;
+}
 /*
 section customers
 */
@@ -146,10 +203,21 @@ section#news #latest-posts, section#news #latest-tweets {
     margin-bottom: 15px;
 }
 section#news blockquote {
-    font-size: 1em;
     border-left: none;
     margin-left: 60px;
     padding-top: 0;
+}
+section#news blockquote p {
+    font-size: 1.4rem;
+    font-style: italic;
+    font-family: Georgia,Serif;
+    color: #7d7d7d;
+}
+
+section#news p {
+    font-size: 1.2rem;
+    font-family: Helvetica,Arial,Sans-serif;
+    color: rgb(153,153,153);
 }
 
 section#news article.tweet p {
