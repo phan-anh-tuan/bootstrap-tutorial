@@ -5,16 +5,103 @@ section {
 section:first-child {
     margin-top: 0;
 }
+/*
+section header
+*/
 section#header {
     background: url(../images/hero-unit.jpg) no-repeat;
     background-size: 100%;
 }
+/*
+section processes
+*/
 section#processes {
     background: #eeeeee;
     padding-bottom: 15px;
 }
-#portfolio img {
+/*
+section portfolio
+*/
+
+section#portfolio img {
     border: 1px solid #eeeeee;
     border-radius: 5px;
     padding: 5px;
+}
+
+/*
+section customers
+*/
+
+section#customers {
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 15px;
+}
+/*
+section news
+*/
+
+section#news {
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 15px;
+}
+
+section#news article {
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 15px;
+    margin-bottom:15px;
+}
+
+section#news article:last-child {
+    border-bottom: none;
+}
+
+section#news a#article-title {
+    color: #000;
+    font-weight: bold;
+    border-bottom: 1px solid transparent;
+}
+
+section#news a#article-title:hover, section#news a#article-title:active {
+    text-decoration: none;
+    border-bottom: 1px solid #eeeeee;
+}
+
+section#news #latest-posts, section#news #latest-tweets {
+    margin-bottom: 15px;
+}
+section#news blockquote {
+    font-size: 1em;
+    border-left: none;
+    margin-left: 60px;
+    padding-top: 0;
+}
+
+section#news article.tweet p {
+    margin-left: 75px;
+    margin-bottom: 0;
+}
+/*
+section footer
+*/
+section#footer #footer-navigation {
+    list-style: none;
+    padding-left: 0;
+}
+
+section#footer ul#footer-navigation li{
+    display: inline;
+    padding: 0 15px 0 15px;
+}
+
+section#footer button span {
+    min-width: 16px;
+    max-height: 16px;
+    display: inline-block;
+    background: url(../images/social-sprite.png) no-repeat;
+    margin-right: 7.5px;
+}
+
+section#footer button#facebook span {
+    background-position: -16px 0px;
 }
